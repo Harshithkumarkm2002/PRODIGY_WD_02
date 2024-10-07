@@ -10,3 +10,8 @@ Lap Timer: Users can record lap times while the stopwatch is running.
 Milliseconds Precision: Displays time down to milliseconds for accurate tracking.
 Dark Mode: An elegant and easy-on-the-eyes dark theme for enhanced user experience.
 Responsive Design: Works across desktop and mobile browsers.
+
+Click Start to begin the stopwatch.
+Click Stop to pause the stopwatch.
+Click Reset to clear the stopwatch and all recorded lap times.
+Click Lap to record the current time as a lap while the stopwatch is running.
