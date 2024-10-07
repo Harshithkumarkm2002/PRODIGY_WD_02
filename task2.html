@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task2.css">
+    <title>Advanced Stopwatch</title>
+</head>
+<body>
+    <div class="stopwatch">
+        <h1 id="display">00:00:00:00</h1> <!-- Display showing hours, minutes, seconds, and milliseconds -->
+        <button id="startBtn">Start</button>
+        <button id="stopBtn" disabled>Stop</button>
+        <button id="resetBtn" disabled>Reset</button>
+        <button id="lapBtn" disabled>Lap</button>
+        <h3>Laps:</h3>
+        <ul id="laps"></ul> <!-- List for lap times -->
+    </div>
+
+    <audio id="lapSound" src="https://www.videvo.net/sound-effect/watch-stopwatch/449742/#rs=audio-title" preload="auto"></audio> <!-- Sound for lap recording -->
+    <script src="task2.js"></script>
+</body>
+</html>
